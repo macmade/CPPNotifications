@@ -48,16 +48,7 @@ namespace EOS
      * @description     ...
      */
     class Object
-    {
-        public:
-            
-            /*!
-             * @method          EOS::Object::className
-             * @abstract        ...
-             * @description     ...
-             */
-            std::string className() const;
-    };
+    {};
 }
 
 #endif /* EOS_OBJECT_H */

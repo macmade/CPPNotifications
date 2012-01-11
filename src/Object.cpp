@@ -39,9 +39,4 @@
 #include "Object.h"
 
 namespace EOS
-{
-    std::string Object::className() const
-    {
-        return typeid( *( this ) ).name();
-    }
-}
+{}
