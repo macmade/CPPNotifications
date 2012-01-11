@@ -4,7 +4,7 @@ CPPNotifications
 C++ Notification System
 -----------------------
 
-Copyright (c) 2012, Jean-David Gadina <macmade@eosgarden.com>
+Copyright (c) 2012, Jean-David Gadina <macmade@eosgarden.com>  
 Distributed under the Boost Software License, Version 1.0.
 
 ### About:
