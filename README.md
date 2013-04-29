@@ -1,21 +1,14 @@
 CPPNotifications
 ================
 
-C++ Notification System
------------------------
+About
+-----
 
-Copyright (c) 2012, Jean-David Gadina <macmade@eosgarden.com>  
-Distributed under the Boost Software License, Version 1.0.
-
-### About:
-
+**C++ Notification System**  
 CPPNotifications is a Cocoa like (Objective-C) notification system for C++ (POSIX and Windows).
 
-### License:
-
-CPPNotifications is released under the terms of the [Boost][1] Software License - Version 1.0.
-
-[1]: http://www.boost.org/LICENSE_1_0.txt   "BOOST"
+Documentation
+-------------
 
 ### Example:
 
@@ -45,3 +38,19 @@ CPPNotifications is released under the terms of the [Boost][1] Software License 
         
         return 0;
     }
+
+License
+-------
+
+CPPNotifications is released under the terms of the Boost Software License - Version 1.0.
+
+Repository Infos
+----------------
+
+    Owner:			Jean-David Gadina - XS-Labs
+    Web:			www.xs-labs.com
+    Blog:			www.noxeos.com
+    Twitter:		@macmade
+    GitHub:			github.com/macmade
+    LinkedIn:		ch.linkedin.com/in/macmade/
+    StackOverflow:	stackoverflow.com/users/182676/macmade
