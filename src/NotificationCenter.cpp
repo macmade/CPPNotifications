@@ -66,7 +66,7 @@ namespace EOS
             i = this->_observers.find( name );
         }
         
-        i->second.push_back( ( const void * )&( observer ) );
+        i->second.push_back( static_cast< const void * >( &( observer ) ) );
         
         this->_lock.unlock();
     }
@@ -81,7 +81,7 @@ namespace EOS
         
         if( i != this->_observers.end() )
         {
-            i->second.remove( ( const void * )&( observer ) );
+            i->second.remove( static_cast< const void * >( &( observer ) ) );
         }
         
         this->_lock.unlock();
@@ -101,7 +101,7 @@ namespace EOS
         {
             for( j = i->second.begin(); j != i->second.end(); ++j )
             {
-                o = ( Observer * )*( j );
+                o = static_cast< Observer * >( const_cast< void * >( *( j ) ) );
                 
                 o->handleNotification( notification );
             }

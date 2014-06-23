@@ -40,6 +40,12 @@
 
 #include "Object.h"
 
+#ifdef _WIN32
+    #include <windows.h>
+#else
+    #include <pthread.h>
+#endif
+
 namespace EOS
 {
     /*!

@@ -35,16 +35,6 @@
  * @copyright       (c) 2012, XS-Labs
  */
 
-#ifdef _WIN32
-    
-    #include <windows.h>
-    
-#else
-    
-    #include <pthread.h>
-    
-#endif
-
 #include "Lock.h"
 #include "Exception.h"
 
