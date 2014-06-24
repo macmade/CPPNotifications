@@ -1,7 +1,7 @@
 CPPNotifications
 ================
 
-[![Build Status](https://travis-ci.org/macmade/CPPNotifications.svg?branch=master)](https://travis-ci.org/macmade/CPPNotifications)
+[![Build Status](https://img.shields.io/travis/macmade/CPPNotifications.svg?branch=master&style=flat)](https://travis-ci.org/macmade/CPPNotifications)
 
 About
 -----
